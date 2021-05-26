@@ -15,6 +15,7 @@
 
 // Create variables
 var firstName = 'Thilini'; //use camal case
+var firstName = 'Madushani';
 var age =23;
 var isOk=true;
 var job, height;
@@ -31,5 +32,24 @@ console.log(" It is "+ isOk);
 console.log(" My Job is "+ job);
 
 
+// Get variable type
+console.log(typeof(firstName));
+console.log(typeof(age));
+console.log(typeof(isOk));
+console.log(typeof(job));
+
+// Define
+job = 'Student';
+// Variable Mutation
+lastName = 'Abesekara';
+console.log(lastName,job);
+
+// Dsiplay an alert
+alert('My name is '+firstName+'. I am '+age+' years old. And am I ok? '+isOk+'.');
+
+// Get user input
+height= prompt("what is your height ???");
+// give alert as output of user input
+alert("My height is "+height + " feets.");
 
 
