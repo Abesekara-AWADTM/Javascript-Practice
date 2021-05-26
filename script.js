@@ -1,0 +1,4 @@
+//******************
+//Externel
+
+console.log("ExternalScript");
