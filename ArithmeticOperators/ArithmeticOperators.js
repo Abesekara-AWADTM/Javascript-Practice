@@ -41,3 +41,14 @@ console.log(myAge--);
 console.log('Post Decrement of my age '+myAge);
 console.log(--myAge);
 console.log('Pre Decrement of my age '+myAge);
+
+
+// --Operator Precedence--
+var cal=(20+30)/10+4.5-2*4**2;// warahan ** / * + -
+console.log(cal);
+
+// --Multiple Operators--
+var ans1, ans2;
+ans1=ans2=(((30+40-29)*2)/8)**4; // Assignment operator | right to left
+console.log(ans1);
+console.log(ans2);
